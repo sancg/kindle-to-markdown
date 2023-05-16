@@ -1,0 +1,532 @@
+﻿El arte de la guerra (Sun Tzu)
+- Your Highlight on page 1 | Location 10-11 | Added on Wednesday, April 5, 2023 1:04:29 AM
+
+El primero de estos factores es la doctrina; el segundo, el tiempo; el tercero, el terreno; el cuarto, el mando; y el quinto, la disciplina.
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Note on page 1 | Location 12 | Added on Wednesday, April 5, 2023 1:06:49 AM
+
+[[La doctrina]]
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Highlight on page 1 | Location 11-12 | Added on Wednesday, April 5, 2023 1:06:49 AM
+
+aquello que hace que el pueblo esté en armonía con su gobernante,
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Note on page 1 | Location 13 | Added on Wednesday, April 5, 2023 1:07:25 AM
+
+El tiempo
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Highlight on page 1 | Location 13-13 | Added on Wednesday, April 5, 2023 1:07:25 AM
+
+el cambio de las estaciones.
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Highlight on page 2 | Location 30-30 | Added on Wednesday, April 5, 2023 1:10:27 AM
+
+El arte de la guerra se basa en el engaño.
+==========
+Dive into Refactoring  
+- Your Highlight on page 6-6 | Added on Wednesday, April 5, 2023 2:54:05 AM
+
+Therefore, it is necessary to get rid of code smells while they are still small.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 3 | Location 41-42 | Added on Wednesday, April 5, 2023 11:24:40 AM
+
+Capítulo 2  Sobre la iniciación de las acciones
+==========
+El arte de la guerra (Sun Tzu)
+- Your Note on page 3 | Location 42 | Added on Wednesday, April 5, 2023 11:24:49 AM
+
+.h2
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 3 | Location 44-45 | Added on Wednesday, April 5, 2023 11:25:53 AM
+
+Las armas son instrumentos de mala suerte; emplearlas por mucho tiempo producirá calamidades.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 5 | Location 64-65 | Added on Wednesday, April 5, 2023 11:35:28 AM
+
+Cuando el poder y los recursos se han agotado, se arruina el propio país. Se priva al pueblo de gran parte de su presupuesto, mientras que los gastos del gobierno para armamentos se elevan.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 5 | Location 74-76 | Added on Wednesday, April 5, 2023 11:38:59 AM
+
+préstales atención. Los soldados prisioneros deben ser bien tratados, para conseguir que en el futuro luchen para ti. A esto se llama vencer al adversario e incrementar por
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 5 | Location 76-77 | Added on Wednesday, April 5, 2023 11:39:02 AM
+
+Si utilizas al enemigo para derrotar al enemigo, serás poderoso en cualquier lugar a donde vayas.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 6 | Location 80-81 | Added on Wednesday, April 5, 2023 11:40:02 AM
+
+Capítulo 3  Sobre las proposiciones de la victoria y la derrota
+==========
+El arte de la guerra (Sun Tzu)
+- Your Note on page 6 | Location 81 | Added on Wednesday, April 5, 2023 11:40:10 AM
+
+.h2
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 2 | Location 27-28 | Added on Thursday, April 6, 2023 1:28:09 AM
+
+Explore how the this binding points to objects based on how the function is cal ed
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Note on page 2 | Location 28 | Added on Thursday, April 6, 2023 1:28:55 AM
+
+[[key aspects of the book]]
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 2 | Location 29-29 | Added on Thursday, April 6, 2023 1:29:10 AM
+
+Look into the nature of JS objects and why you’d need to point to them
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 2 | Location 30-30 | Added on Thursday, April 6, 2023 1:29:17 AM
+
+Learn how developers use the mixin pattern to fake classes in JS
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 3 | Location 35-36 | Added on Thursday, April 6, 2023 1:29:26 AM
+
+Examine how JS’s prototype mechanism forms links between objects T PR
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 3 | Location 36-37 | Added on Thursday, April 6, 2023 1:29:38 AM
+
+Learn how to move from class/inheritance design to behavior delegation O
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 16 | Location 245-246 | Added on Thursday, April 6, 2023 1:44:43 AM
+
+Because JavaScript can be used without understanding, the understanding of the language is often never attained.
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 24 | Location 355-356 | Added on Thursday, April 6, 2023 1:52:36 AM
+
+CHAPTER 1 this or That?
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Note on page 24 | Location 356 | Added on Thursday, April 6, 2023 1:52:49 AM
+
+.h2
+==========
+You Don't Know JS: This & Object Prototypes (Kyle Simpson)
+- Your Highlight on page 24 | Location 358-359 | Added on Thursday, April 6, 2023 1:53:22 AM
+
+Any sufficiently  advanced technology is indistinguishable from magic. — Arthur C. Clarke
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Bookmark on page 5 | Location 71 | Added on Thursday, April 6, 2023 1:57:46 AM
+
+
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 7 | Location 97-98 | Added on Saturday, April 8, 2023 1:23:30 PM
+
+any improvement in the way we organise the everyday writing, how we take notes of what we encounter and what we do with them, will make all the difference
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 7 | Location 98 | Added on Saturday, April 8, 2023 1:26:28 PM
+
+Organise, destill, recover and reused the knowledge. Here you will find a methodology for the Organise and destill part.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 7 | Location 98 | Added on Saturday, April 8, 2023 1:28:32 PM
+
+Organise, destill, recover and reused the knowledge. Here you will find a methodology for leverage the black-screen and finally start organising your thoughts.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 8 | Location 114-116 | Added on Saturday, April 8, 2023 1:33:24 PM
+
+They struggle because they believe, as they are made to believe, that writing starts with a blank page. If you believe that you have indeed nothing at hand to fill it, you have a very good reason to panic.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 9 | Location 128-130 | Added on Saturday, April 8, 2023 1:36:58 PM
+
+What does make a significant difference along the whole intelligence spectrum is something else: how much self-discipline or self-control one uses to approach the tasks at hand (Duckworth and Seligman, 2005; Tangney, Baumeister, and Boone, 2004).
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 10 | Location 143-143 | Added on Saturday, April 8, 2023 1:39:14 PM
+
+Having a meaningful and well-defined task beats willpower every time.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 10 | Location 143 | Added on Saturday, April 8, 2023 1:39:49 PM
+
+Sum up to self-discipline.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 10 | Location 146-151 | Added on Saturday, April 8, 2023 1:40:23 PM
+
+This is where the organisation of writing and note-taking comes into play. 1   Everything
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 10 | Location 150-151 | Added on Saturday, April 8, 2023 1:40:32 PM
+
+1   Everything You Need to Know
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 4 | Location 49-49 | Added on Friday, April 14, 2023 8:49:26 PM
+
+Nunca es beneficioso para un país dejar que una operación militar se prolongue por mucho tiempo.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 6 | Location 78-78 | Added on Friday, April 14, 2023 8:53:09 PM
+
+Un ejército es como el fuego: si no lo apagas, se consumirá por sí mismo.
+==========
+Learn Three.js: Program 3D animations and visualizations for the web with JavaScript and WebGL, 4th Edition (Dirksen, Jos)
+- Your Highlight on page 33 | Location 435-436 | Added on Sunday, April 23, 2023 2:09:56 AM
+
+Part 1: Getting Up and Running
+==========
+Learn Three.js: Program 3D animations and visualizations for the web with JavaScript and WebGL, 4th Edition (Dirksen, Jos)
+- Your Note on page 33 | Location 436 | Added on Sunday, April 23, 2023 2:10:09 AM
+
+.h2
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 11-11 | Added on Wednesday, April 26, 2023 6:53:15 PM
+
+HVLJQ3ULQFLSOH ,GHQWLI\WKHDVSHFWVRI\RXU DSSOLFDWLRQWKDWYDU\DQGVHSDUDWH WKHPIURPZKDWVWD\VWKHVDPH
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 11-11 | Added on Wednesday, April 26, 2023 6:53:24 PM
+
+'HVLJQ3ULQFLSOH ,GHQWLI\WKHDVSHFWVRI\RXU DSSOLFDWLRQWKDWYDU\DQGVHSDUDWH WKHPIURPZKDWVWD\VWKHVDPH
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Note on page 11 | Added on Wednesday, April 26, 2023 6:53:52 PM
+
+[[Design principles]]
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 11-11 | Added on Wednesday, April 26, 2023 6:56:54 PM
+
+\ISM\PMXIZ\[ \PI\^IZaIVLMVKIX[]TI\M\PMU[W\PI\TI\MZaW]KIV IT\MZWZM`\MVL\PMXIZ\[\PI\^IZa_Q\PW]\INNMK\QVO \PW[M\PI\LWV¼\
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Note on page 11 | Added on Wednesday, April 26, 2023 6:58:51 PM
+
+[[Design principles]] - Code that remains constant, versus changing requirements.
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 13-13 | Added on Sunday, April 30, 2023 7:44:01 PM
+
+3URJUDPWRDQLQWHUIDFHQRWDQ LPSOHPHQWDWLRQ
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Bookmark on page 13 | Added on Sunday, April 30, 2023 7:44:30 PM
+
+
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 14-14 | Added on Sunday, April 30, 2023 7:51:20 PM
+
+,VQ·WWKH ZKROHSRLQWWRXVHSRO\PRUSKLVP
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 14-14 | Added on Sunday, April 30, 2023 7:51:27 PM
+
+,VQ·WWKH ZKROHSRLQWWRXVHSRO\PRUSKLVP" ´3URJUDPWRDQLQWHUIDFHµUHDOO\PHDQV ´3URJUDPWRDVXSHUW\SHµ <PM_WZLQV\MZNIKMQ[W^MZTWILMLPMZM<PMZM¼[\PMKWVKMX\WN  QV\MZNIKMJ]\\PMZM¼[IT[W\PM2I^IKWV[\Z]K\LQWHUIDFHAW] KIVXZWOZIU\WIVQV\MZNIKM_Q\PW]\PI^QVO\WIK\]ITTa][MI 2I^ILQWHUIDFH<PMXWQV\Q[\WM`XTWQ\XWTaUWZXPQ[UJa XZWOZIUUQVO\WI[]XMZ\aXM[W\PI\\PMIK\]ITZ]V\QUMWJRMK\ Q[V¼\TWKSMLQV\W\PMKWLM)VL_MKW]TLZMXPZI[M¹XZWOZIU\W I[]XMZ\aXMºI[¹\PMLMKTIZML\aXMWN \PM^IZQIJTM[[PW]TLJMI []XMZ\aXM][]ITTaIVIJ[\ZIK\KTI[[WZQV\MZNIKM[W\PI\\PMWJRMK\[ I[[QOVML\W\PW[M^IZQIJTM[KIVJMWN IVaKWVKZM\MQUXTMUMV\I\QWV WN \PM[]XMZ\aXM_PQKPUMIV[\PMKTI[[LMKTIZQVO\PMULWM[V¼\ PI^M\WSVW_IJW]\\PMIK\]ITWJRMK\\aXM[	º <PQ[Q[XZWJIJTaWTLVM_[\WaW]J]\R][\\WUISM[]ZM_M¼ZM ITT[IaQVO\PM[IUM\PQVOPMZM¼[I[QUXTMM`IUXTMWN ][QVOI XWTaUWZXPQK\aXM¸QUIOQVMIVIJ[\ZIK\KTI[[)VQUIT_Q\P\_W KWVKZM\MQUXTMUMV\I\QWV[,WOIVL+I\ 8ZWOZIUUQVO\WIVQUXTMUMV\I\QWV_W]TLJM" EHDEVWUDFWVXSHUW\SHFRXOG LQWHUIDFHDQDEVWUDFWFODVV25 'RJG QHZ'RJ'HFODULQJWKHGEDUNDYDULDEOH´GµDVW\SH'RJ IRUFHVFRQFUHWHXVWRLPSOHPHQWDWLRQFRGHRI$QLPDO LPSOHPHQWDWLRQ WRDFRQFUHWH *]\XZWOZIUUQVO\WIVQV\MZNIKM[]XMZ\aXM_W]TLJM" $QLPDODQLPDO QHZ'RJDQLPDOPDNH6RXQG$QLPDO PDNH6RXQG:HNQRZLW·VD'RJEXW ZHUHIHUHQFHFDQQRZSROXVH\PRUSKLFDOOWKHDQLPDO\  FRQFUHWH -^MVLPSOHPHQWDWLRQV JM\\MZZI\PMZ\PIVPIZL\KWLQVOPMKWLM\PMI[QV[QOV[\IV\\QIPM\QWVKWVKZMWN \PM\ []J\aXMTQSMVM_,WOQV\WM QUXTMUMV\I\QWVWJRMK\I\Z]V\QUM" 'RJ &DW PDNH6RXQG^ PDNH6RXQG^ D JHW$QLPDO:HEDUNPHRZDQLPDOPDNH6RXQG DQLPDOGRQ·WLVWKDWVXEWNQRZ\SHLV:+$DOO7ZHWKHFDUHDFWXDODERXW  ` ` EDUN^EDUNVRXQG` PHRZ^PHRZVRXQG` PDNH6RXQGLWNQRZV KRZWRUHVSRQGWR  &KDSWHU Chapter 1. Welcome to Design Patterns User number: 1673621 Copyright 2008, Safari Books Online, LLC. Head First Design Patterns By Eric Freeman, Elisabeth Freeman, Bert Bates, Kathy Sierra ISBN: 0596007124 Publisher: O'Reilly Prepared for Ann Cherkis, Safari ID: maottw@gmail.com Print Publication Date: 2004/10/25 This PDF is exclusively for your use in accordance with the Safari Terms of Service. No part of it may be reproduced or transmitted in any form by any means without the prior written permission for reprints and excerpts from the publisher. Redistribution or other use that violates the fair use priviledge under U.S. copyright laws (see 17 USC107) or that otherwise violates the Safari Terms of Service is strictly prohibited
+==========
+Head First Design Patterns Poster - Elisabeth Robson & Eric Freeman  
+- Your Highlight on page 14-14 | Added on Sunday, April 30, 2023 7:51:37 PM
+
+,VQ·WWKH ZKROHSRLQWWRXVHSRO\PRUSKLVP
+==========
+Remembering the Kanji. A Complete Course on How Not to Forget the Meaning and Writing of Japanese Character. Vol. 1  
+- Your Highlight on page 4-4 | Added on Monday, May 1, 2023 1:32:08 AM
+
+The aim of this book
+==========
+Dive into Refactoring  
+- Your Highlight on page 6-6 | Added on Monday, May 1, 2023 1:33:28 AM
+
+Code smells
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 11 | Location 157-158 | Added on Tuesday, May 2, 2023 8:03:52 PM
+
+It relieves you from the burden of remembering and keeping track of everything.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 11 | Location 158 | Added on Tuesday, May 2, 2023 8:04:37 PM
+
+Create systems that you thrust 
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 12 | Location 170-171 | Added on Tuesday, May 2, 2023 8:13:14 PM
+
+If you make a plan, you impose a structure on yourself ; it makes you inflexible.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 12 | Location 176-177 | Added on Tuesday, May 2, 2023 8:36:09 PM
+
+The challenge is to structure one’s workflow in a way that insight and new ideas can become the driving forces that push us forward.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 13 | Location 198-199 | Added on Tuesday, May 2, 2023 8:59:59 PM
+
+That means that those who are not very good at something tend to be overly confident, while those who have made an effort tend to underestimate their abilities.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 13 | Location 199 | Added on Tuesday, May 2, 2023 9:00:12 PM
+
+Krugger Effect
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 14 | Location 207-208 | Added on Tuesday, May 2, 2023 9:03:43 PM
+
+1.1        Good Solutions are Simple – and Unexpected
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 14 | Location 208 | Added on Tuesday, May 2, 2023 9:03:50 PM
+
+.h3
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 15 | Location 225-225 | Added on Tuesday, May 9, 2023 2:10:15 AM
+
+the technique of the simple slip-box.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 15 | Location 225 | Added on Tuesday, May 9, 2023 2:10:28 AM
+
+Core idea.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 15 | Location 225-225 | Added on Tuesday, May 9, 2023 2:10:40 AM
+
+the technique of the simple slip-box. I will explain the principle of this system in the next chapter
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 15 | Location 225-225 | Added on Tuesday, May 9, 2023 2:10:51 AM
+
+the technique of the simple slip-box.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 15 | Location 230-231 | Added on Tuesday, May 9, 2023 2:12:38 AM
+
+change in working habits means going through a phase where you are drawn back to your old ways.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 16 | Location 233-234 | Added on Tuesday, May 9, 2023 2:13:38 AM
+
+Routines require simple, repeatable tasks that can become automatic and fit together seamlessly (cf. Mata, Todd, and Lippke, 2010).
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 16 | Location 241-242 | Added on Tuesday, May 9, 2023 2:15:57 AM
+
+Only if nothing else is lingering in our working memory and taking up valuable mental resources can we experience what Allen calls a “mind like water”
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 18 | Location 268 | Added on Tuesday, May 9, 2023 2:21:26 AM
+
+.h2
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 18 | Location 267-268 | Added on Tuesday, May 9, 2023 2:21:26 AM
+
+1.2        The Slip-box
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 21 | Location 310-311 | Added on Tuesday, May 9, 2023 2:31:41 AM
+
+“If I want something, it’s more time. The only thing that really is a nuisance is the lack of time.” (Luhmann, Baecker, and Stanitzek, 1987, 139)
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 21 | Location 311 | Added on Tuesday, May 9, 2023 2:32:23 AM
+
+Liking phrases 
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 22 | Location 323-324 | Added on Tuesday, May 9, 2023 2:35:38 AM
+
+. I only write when I immediately know how to do it. If I falter
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 22 | Location 323-324 | Added on Tuesday, May 9, 2023 2:35:45 AM
+
+. I only write when I immediately know how to do it. If I falter
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 22 | Location 328-330 | Added on Tuesday, May 9, 2023 2:37:03 AM
+
+But doesn’t it make much more sense that the impressive body of work was produced not in spite of the fact he never made himself do anything he didn’t feel like, but because of
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 22 | Location 328-330 | Added on Tuesday, May 9, 2023 2:37:08 AM
+
+But doesn’t it make much more sense that the impressive body of work was produced not in spite of the fact he never made himself do anything he didn’t feel like, but because of it?
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 22 | Location 330 | Added on Tuesday, May 9, 2023 2:37:45 AM
+
+Complex phrase - Needs reinterpretation 
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 25 | Location 371 | Added on Tuesday, May 9, 2023 2:57:21 AM
+
+.h2
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 25 | Location 370-371 | Added on Tuesday, May 9, 2023 2:57:21 AM
+
+1.3        The slip-box manual
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 25 | Location 372-373 | Added on Tuesday, May 9, 2023 9:24:07 PM
+
+two slip-boxes: a bibliographical one, which contained the references and brief notes on the content of the literature, and the main one in which he collected and generated his ideas, mainly in response to what he read.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 25 | Location 373 | Added on Tuesday, May 9, 2023 9:29:53 PM
+
+Box system:
+- Bibliographic 
+- Idea generator 
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 25 | Location 380-381 | Added on Tuesday, May 9, 2023 9:32:19 PM
+
+He usually wrote his notes with an eye towards already existing notes in the slip-box.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 26 | Location 385-385 | Added on Wednesday, May 10, 2023 7:38:44 PM
+
+Rarely would a note stay in isolation.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 26 | Location 391-391 | Added on Wednesday, May 10, 2023 7:46:22 PM
+
+The numbers bore no meaning and were only there to identify each note permanently.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 27 | Location 403-403 | Added on Wednesday, May 10, 2023 7:46:41 PM
+
+The last element in his file system was an index,
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 27 | Location 403 | Added on Wednesday, May 10, 2023 7:47:17 PM
+
+permanent notes that referes to an entry point of topic.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 6 | Location 92-94 | Added on Sunday, May 14, 2023 5:03:12 PM
+
+verdadero maestro de las artes marciales vence a otras fuerzas enemigas sin batalla, conquista otras ciudades sin asediarlas y destruye a otros ejércitos sin emplear mucho tiempo.
+==========
+El arte de la guerra (Sun Tzu)
+- Your Highlight on page 6 | Location 92-94 | Added on Sunday, May 14, 2023 5:03:28 PM
+
+un verdadero maestro de las artes marciales vence a otras fuerzas enemigas sin batalla, conquista otras ciudades sin asediarlas y destruye a otros ejércitos sin emplear mucho tiempo.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 27 | Location 409-410 | Added on Monday, May 15, 2023 2:09:56 AM
+
+And if I were forced to boil it down to a single bullet point, it would be this:
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 27 | Location 410 | Added on Monday, May 15, 2023 2:10:07 AM
+
+English ref.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 28 | Location 415-415 | Added on Monday, May 15, 2023 2:17:53 AM
+
+2   Everything You Need to Do
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 28 | Location 415 | Added on Monday, May 15, 2023 2:18:07 AM
+
+.h2
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 28 | Location 422-423 | Added on Monday, May 15, 2023 2:19:34 AM
+
+Everybody is motivated when the finish line is within reach.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 29 | Location 434-435 | Added on Monday, May 15, 2023 2:51:10 AM
+
+Only with a less narrow focus will you be able to see connections and patterns.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 29 | Location 441-442 | Added on Monday, May 15, 2023 2:52:39 AM
+
+If you are short of money, just take what you need out of your piggy bank?
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 30 | Location 451-451 | Added on Monday, May 15, 2023 2:55:13 AM
+
+If you want to learn something for the long run, you have to write it down.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Bookmark on page 30 | Location 450 | Added on Monday, May 15, 2023 2:56:23 AM
+
+
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 30 | Location 457-458 | Added on Monday, May 15, 2023 2:57:34 AM
+
+You have to externalise your ideas, you have to write.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 463-464 | Added on Monday, May 15, 2023 2:59:03 AM
+
+2.1        Writing a paper step by step
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 31 | Location 464 | Added on Monday, May 15, 2023 2:59:17 AM
+
+.h3
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 464-465 | Added on Monday, May 15, 2023 2:59:42 AM
+
+1. Make fleeting notes.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 470-471 | Added on Monday, May 15, 2023 3:01:06 AM
+
+2. Make literature notes.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 472-472 | Added on Monday, May 15, 2023 3:02:32 AM
+
+Keep it very short, be extremely selective, and use your own words.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 473-473 | Added on Monday, May 15, 2023 3:02:59 AM
+
+your reference system.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 466-466 | Added on Monday, May 15, 2023 3:03:11 AM
+
+These are fleeting notes, mere reminders of what is in your head.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 31 | Location 474-474 | Added on Monday, May 15, 2023 3:03:26 AM
+
+3. Make permanent notes.
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 32 | Location 477-477 | Added on Monday, May 15, 2023 6:28:30 PM
+
+The idea is not to collect, but to develop ideas, arguments and discussions
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Highlight on page 32 | Location 482-483 | Added on Monday, May 15, 2023 6:29:45 PM
+
+4. Now add your new permanent notes to the slip-box by:
+==========
