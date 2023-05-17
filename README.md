@@ -1,6 +1,6 @@
 # Kindle to Notes 🎯
 
-To get all highlights from the My Clippings.txt, so it can be import to any note-taking app as Obsidian.
+To get all highlights and notes from the My Clippings.txt, and import them to any note-taking app such as Obsidian.
 
 ## Progress 📝
 

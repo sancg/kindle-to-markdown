@@ -7,7 +7,7 @@ const data = fs.readFileSync(file_path, "utf8");
 
 const data_structure = (raw_text) => {
     const all_notes = raw_text.split("==========");
-    const note = all_notes.map((item) => {
+    const extracted_notes = all_notes.map((item) => {
         const note = {};
         cleaning_note = item.replace(/\\r+/g, "").trim();
 
@@ -23,14 +23,26 @@ const data_structure = (raw_text) => {
             ?.trim();
         const is_highlight = schema.find((item) => /Your Highlight/gi.test(item.trim()));
         if (!is_highlight) return;
-        console.log(is_highlight);
+        // console.log(is_highlight);
 
-        note.reference = is_highlight.match(/(on page \d+)/)[0];
+        note.reference = is_highlight;
         note.highlight = schema[2]?.trim();
         return note;
     });
 
-    fs.writeFileSync("./data/result.json", JSON.stringify(note, null, 4));
+    return extracted_notes;
 };
 
-data_structure(data);
+const notes = data_structure(data).filter((item) => item);
+// console.log(notes);
+const grouping = Object.values(
+    notes.reduce((grouped, note) => {
+        const { title, author, ...rest } = note;
+        grouped[title] ??= { book: title, author, highlights: [] };
+        grouped[title].highlights.push(rest);
+        return grouped;
+    }, {})
+);
+
+console.log(grouping);
+fs.writeFileSync("./data/result.json", JSON.stringify(grouping, null, 4));
