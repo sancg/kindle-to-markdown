@@ -15,11 +15,11 @@ const data_structure = (raw_text) => {
          * but using the trim() it gets an empty string.
          */
         schema = schema.filter((item) => item.trim());
-
+        const [title, reference, annotation] = schema;
         // If the schema hasn't values after the process it would return a null type
         if (schema.length < 1) return;
 
-        note.title = schema[0].trim();
+        note.title = title.trim();
         // Evaluating the book's author
         const reg_author = new RegExp(/\(.*\)/, "g");
         if (reg_author.test(note.title)) {
@@ -27,12 +27,21 @@ const data_structure = (raw_text) => {
             note.title = note.title.replace(reg_author, "").trim();
         }
 
-        const is_highlight = schema.find((item) => /Your Highlight/gi.test(item.trim()));
-        if (!is_highlight) return;
+        // CHANGES THIS SECTION TO OBTAIN THE NOTES AS WELL IN THEIR RESPECTIVE ORDER.
+        let type_of_annotation = reference.includes("Your Highlight");
+        note.reference = reference.replace(/^\-/, "").trim();
+        if (!type_of_annotation) {
+            type_of_annotation = reference.includes("Your Bookmark");
+            if (!type_of_annotation) {
+                note.note = annotation?.trim();
+                return note;
+            } else {
+                return;
+            }
+        }
         // console.log(is_highlight);
 
-        note.reference = is_highlight.replace(/^\-/, "").trim();
-        note.highlight = schema[2]?.trim();
+        note.highlight = annotation.trim();
         return note;
     });
 
@@ -40,7 +49,7 @@ const data_structure = (raw_text) => {
 };
 
 const notes = data_structure(data).filter((item) => item);
-console.log(notes);
+// console.log(data_structure(data));
 
 /**Group-by implementation to create an Array of objects(books by title) with its matching highlights
  *
