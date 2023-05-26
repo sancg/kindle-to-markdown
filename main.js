@@ -41,6 +41,11 @@ const data_structure = (raw_text) => {
 
 const notes = data_structure(data).filter((item) => item);
 console.log(notes);
+
+/**Group-by implementation to create an Array of objects(books by title) with its matching highlights
+ *
+ * Object.values() would return an Array with all its string-keyed -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
+ */
 const grouping = Object.values(
     notes.reduce((grouped, note) => {
         const { title, author, ...rest } = note;
