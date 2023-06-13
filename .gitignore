@@ -3,6 +3,7 @@
 
 ### Results ###
 *.json
+testing/*.txt
 
 ### macOS ###
 # General
