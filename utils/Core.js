@@ -1,8 +1,20 @@
+const fs = require("node:fs/promises");
+const path = require("node:path");
+
+const { CreateFolder } = require("./File");
+const File = require("./File");
+
 const Core = {
     /**
      *
      * @param {string} raw_text main source to classify the highlighted notes
-     * @returns
+     * @returns {{
+     *  title: string,
+     *  author?: string,
+     *  reference: string,
+     *  highlight?: string,
+     *  note?: string
+     * }[]}
      */
     DataStructure(raw_text) {
         // Cut the file by the identified separator
@@ -64,9 +76,19 @@ const Core = {
     /**
      * GroupBy implementation to create an Array of objects(books by title) with its matching highlights
      * Object.values() would return an Array with all its string-keyed -> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values
-     * @param {[]} collection Array of elements to perform the groupBy function
-     * @param {string} by the key element to match and join
-     * @returns {[]} Array of objects
+     * @param {{
+     *  title: string,
+     *  author?: string,
+     *  reference: string,
+     *  highlight?: string,
+     *  note?: string
+     * }[]} collection Array of elements to perform the groupBy function
+     * @returns {{
+     *  book: string,
+     *  annotations: [
+     *      {reference: string, highlight?: string, note?: string}
+     *  ]
+     * }[]} Array of grouped books
      */
     GroupBy(collection) {
         return Object.values(
@@ -78,6 +100,46 @@ const Core = {
             }, {})
         );
     },
+
+    async formatNoteToMD(library) {
+        const pathBook = await CreateFolder({ folder: "Notes", is_source: true });
+        let text;
+        return await Promise.all(
+            library.map(async (item) => {
+                const currentDate = new Date().toISOString().split("T").shift();
+                text = `---
+tags: reading
+folder: undefined
+author: ${item.author ?? "Mr. X"}
+date: ${currentDate}  
+---
+`;
+                text += `
+# ${item.book}
+## Fragments:
+`;
+                item.annotations.forEach((ad) => {
+                    if (ad.highlight) {
+                        text += `
+\`\`\`ad-quote
+title: ${ad.highlight}
+- Ref: ${ad.reference}
+\`\`\`
+`;
+                    } else {
+                        text += `
+\`\`\`ad-hint
+title: ${ad.note}
+- Ref: ${ad.reference}
+\`\`\`
+`;
+                    }
+                });
+                await fs.writeFile(path.join(pathBook, `${item.book}.md`), text);
+                return text;
+            })
+        );
+    },
 };
 
-module.exports = { Core };
+module.exports = Core;
