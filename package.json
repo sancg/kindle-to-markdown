@@ -1,13 +1,22 @@
 {
   "name": "kindlehighlights",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert your valuable notes into .md to use with Obsidian or any note taking app",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "kindle",
+    "kindlehighlights",
+    "note-taking app",
+    "note-taking"
+  ],
+  "author": "Santiago Cano",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "0.34.1"
+  }
 }
