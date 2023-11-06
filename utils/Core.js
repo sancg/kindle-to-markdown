@@ -1,22 +1,37 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 
-const { CreateFolder } = require("./File");
+const { source } = require("./Routes");
 const File = require("./File");
+/**
+ * @typedef {{
+ *  title: string,
+ *  author?: string,
+ *  reference: string,
+ *  highlight?: string,
+ *  note?: string
+ * }} ExtractedNote
+ *
+ * @typedef {{
+ *book: string;
+ *annotations: [{
+ *        reference: string;
+ *       highlight?: string | undefined;
+ *       note?: string | undefined;
+ *  }]}} Book
+ */
 
 const Core = {
+    fileParsedNotes: "parsedNotes.json",
+    fileGroupedBook: "parsedBooks.json",
     /**
      *
-     * @param {string} raw_text main source to classify the highlighted notes
-     * @returns {{
-     *  title: string,
-     *  author?: string,
-     *  reference: string,
-     *  highlight?: string,
-     *  note?: string
-     * }[]}
+     * @param {string} clippingFile Path where is located the clipping file
+     * @returns {Promise<Book[]>}
      */
-    DataStructure(raw_text) {
+    async DataStructure(clippingFile) {
+        const raw_text = await fs.readFile(clippingFile, "utf8");
+
         // Cut the file by the identified separator
         const all_notes = raw_text.split("==========");
         const extracted_notes = all_notes.map((item) => {
@@ -70,7 +85,21 @@ const Core = {
         });
 
         // Deleting bookmarks from the results
-        return extracted_notes.filter((item) => item);
+        // And storage the files
+        /**
+         * @type {ExtractedNote[]}
+         */
+        const parseNotes = extracted_notes.filter((item) => item);
+        /**
+         * @type {Book[]}
+         */
+        const parseBooks = this.GroupBy(parseNotes);
+
+        // NOTE: Evaluate if it is necessary to save the parsedBooks or only the last entry of the notes
+        await File.SaveResults(parseNotes, `${source}/${this.fileParsedNotes}`);
+        await File.SaveResults(parseBooks, `${source}/${this.fileGroupedBook}`);
+
+        return parseBooks;
     },
 
     /**
@@ -101,8 +130,13 @@ const Core = {
         );
     },
 
+    /**
+     *
+     * @param {Book[]} library - Collection of parsed books
+     * @returns {Promise<void>}
+     */
     async formatNoteToMD(library) {
-        const pathBook = await CreateFolder({ folder: "Notes", is_source: true });
+        const pathBook = await File.CreateFolder({ folder: "Notes", is_source: true });
         let text;
         return await Promise.all(
             library.map(async (item) => {
@@ -122,21 +156,21 @@ date: ${currentDate}
                     if (ad.highlight) {
                         text += `
 \`\`\`ad-quote
-title: ${ad.highlight}
-- Ref: ${ad.reference}
+title: ${ad.reference}
+${ad.highlight}
 \`\`\`
 `;
                     } else {
                         text += `
 \`\`\`ad-hint
-title: ${ad.note}
-- Ref: ${ad.reference}
+title: ${ad.reference}
+${ad.note}
 \`\`\`
 `;
                     }
                 });
                 await fs.writeFile(path.join(pathBook, `${item.book}.md`), text);
-                return text;
+                // return text;
             })
         );
     },
