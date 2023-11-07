@@ -1,42 +1,22 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 
-const { source } = require('./Routes');
 const File = require('./File');
-/**
- * @typedef {{
- *  title: string,
- *  author?: string,
- *  reference: string,
- *  highlight?: string,
- *  note?: string
- * }} ExtractedNote
- *
- * @typedef {{
- *   book: string;
- *   annotations: [{
- *       reference: string;
- *       highlight?: string | null;
- *       note?: string | null;
- *   }]
- *  }
- * } Book
- */
 
 const Core = {
-  fileParsedNotes: 'parsedNotes.json',
-  fileGroupedBook: 'parsedBooks.json',
+  fileLastEntry: 'checkLastEntry.json',
+  fileGroupedBook: 'groupBooks.json',
   /**
    * Function that parsed the incoming notes into useful JSON Format.
    * @param {string} clippingFile Path where is located the clipping file
-   * @returns {Promise<Book[]>}
+   * @returns {Promise<{ parseNotes: ExtractedNote[], parseBooks: Book[]}>}
    */
   async DataStructure(clippingFile) {
     const raw_text = await fs.readFile(clippingFile, 'utf8');
 
     // Cut the file by the identified separator
     const all_notes = raw_text.split('==========');
-    const extracted_notes = all_notes.map((item) => {
+    const extractedNotes = all_notes.map((item) => {
       const note = {};
       /*
             As it gets a raw_text it will leave a trace of unwanted spaces
@@ -91,17 +71,19 @@ const Core = {
     /**
      * @type {ExtractedNote[]}
      */
-    const parseNotes = extracted_notes.filter((item) => item);
+    const parseNotes = extractedNotes.filter((item) => item);
     /**
      * @type {Book[]}
      */
     const parseBooks = this.GroupBy(parseNotes);
 
     // NOTE: Evaluate if it is necessary to save the parsedBooks or only the last entry of the notes
-    await File.SaveResults(parseNotes, `${source}/${this.fileParsedNotes}`);
-    await File.SaveResults(parseBooks, `${source}/${this.fileGroupedBook}`);
+    // The function will only return the parseNotes, parseBooks without saving them
 
-    return parseBooks;
+    // await File.SaveResults(parseNotes, `${source}/${this.fileParsedNotes}`);
+    // await File.SaveResults(parseBooks, `${source}/${this.fileGroupedBook}`);
+
+    return { parseNotes, parseBooks };
   },
 
   /**
