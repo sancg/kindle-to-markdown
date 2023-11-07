@@ -1,13 +1,33 @@
 {
   "name": "kindlehighlights",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert your valuable notes into .md to use with Obsidian or any note taking app",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sancg/kindle-to-notes.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "start": "node main.js",
+    "test": "vitest"
+  },
+  "keywords": [
+    "kindle",
+    "kindlehighlights",
+    "note-taking app",
+    "note-taking"
+  ],
+  "author": {
+    "name": "Santiago Cano",
+    "email": "mr.santiago.cano@gmail.com",
+    "url": "https://www.linkedin.com/in/sancg/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^3.0.3",
+    "vitest": "0.34.1"
+  }
 }

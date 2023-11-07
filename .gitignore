@@ -4,6 +4,12 @@
 ### Results ###
 *.json
 testing/*.txt
+*/Notes/**/*.md
+
+# /test*
+
+*-lock.json
+yarn.lock
 
 ### macOS ###
 # General
