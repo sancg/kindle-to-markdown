@@ -10,7 +10,7 @@ const File = {
    * @param {object} options - The options for creating the folder.
    * @param {string} [options.folder=""] - The name of the folder to be created (optional).
    * @param {boolean} [options.is_source=false] - Indicates whether the folder is for testing purposes (optional).
-   * @returns {Promise<string>} - A Promise that resolves to the path of the created folder.
+   * @returns {Promise<string>} A Promise that resolves to the path of the created folder.
    * @throws {Error} If there's an issue with creating the folder or any other errors during the process.
    *
    * @example
@@ -32,13 +32,26 @@ const File = {
     return wanted_path;
   },
 
-  async SaveResults(notes, path_file = null) {
+  /**
+   * Asynchronously saves notes to a JSON file.
+   *
+   * @async
+   * @param {NoteResults} notes - An array of notes or data to be saved to a JSON file.
+   * @param {string} [path_file=null] - The file path where the data should be saved. If not provided, a default path is used.
+   * @returns {Promise<void>} - A Promise that resolves when the data is successfully saved to the file, or rejects on error.
+   *
+   * @throws {Error} If there is an issue with writing the data to the file.
+   *
+   * @example
+   * const notesData = [{ id: 1, text: 'Note 1' }, { id: 2, text: 'Note 2' }];
+   * await SaveResults(notesData, './data/notes.json');
+   */
+  async SaveResults(notes, path_file = './data/generic_results.json') {
     if (!notes || notes.length < 1) {
       console.error(`Notes must be extracted - Argument Notes: ${notes?.length}`);
       return;
     }
-    path_file = path_file ?? './data/generic_results.json';
-    await fs.promises.writeFile(path_file, JSON.stringify(notes, null, 4));
+    await fs.promises.writeFile(path_file, JSON.stringify(notes));
   }
 };
 module.exports = File;
