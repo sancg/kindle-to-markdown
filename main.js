@@ -1,20 +1,34 @@
-const fs = require("fs");
-const path = require("path");
-const { File } = require("./utils/File");
-const { Core } = require("./utils/Core");
-
-const file_path = path.join(__dirname, "./data/My Clippings.txt");
-const raw_data = fs.readFileSync(file_path, "utf8");
+const Core = require('./utils/Core');
+const File = require('./utils/File');
+const { clippingFile, tempFile } = require('./utils/Routes');
+const testingSource = './data/moreEntries.txt';
 
 (async () => {
-    const converted_file = "core.json";
-    const books = "books.json";
+  // IMPROVE: SyncNote is function that search the tempFile last Entry and compare with the new ExtractedNotes
+  const { default: SyncNote } = await import('./utils/Sync.mjs');
 
-    const root = await File.CreateFolder("", true);
-    const notes = Core.DataStructure(raw_data);
+  const timeStart = performance.now();
 
-    const separate_books = Core.GroupBy(notes);
-    await File.SaveResults(notes, `${root}/${converted_file}`);
-    await File.SaveResults(separate_books, `${root}/${books}`);
+  // Perform sync process
+  const { parseNotes, parseBooks } = await Core.DataStructure(testingSource);
+  const isSync = await SyncNote.SyncEntry(parseNotes);
+  console.log({ isSync });
+  if (!isSync) {
+    /**
+     * Creating the tempFile that will detect or last entry.
+     * @type {NoteResults}
+     */
+    const temp = {
+      lastEntry: parseNotes[parseNotes.length - 1],
+      totalBooks: parseNotes.length,
+      highlightCount: parseBooks.length
+    };
+
+    await Core.formatNoteToMD(parseBooks);
+    await File.SaveResults(temp, tempFile);
+  }
+
+  const timeEnd = performance.now();
+  const secondsElapse = (timeEnd - timeStart) / 1000;
+  console.log(`\x1b[32m All books extracted\x1b[0m => ${secondsElapse.toFixed(4)} seconds.`);
 })();
-// console.log(grouping);
