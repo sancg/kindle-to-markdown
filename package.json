@@ -9,8 +9,7 @@
   },
   "scripts": {
     "start": "node main.js",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "test": "vitest"
   },
   "keywords": [
     "kindle",

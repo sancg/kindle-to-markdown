@@ -16,8 +16,14 @@ module.exports = {
       // extends: ['prettier', 'standard']
     },
     {
-      files: ['*.js', '*.jsx', '*.ts', '*.tsx'],
+      files: ['*.js', '*/**/*.js'],
       extends: ['eslint:recommended', 'prettier']
+    },
+    {
+      files: ['*.mjs', '*/**/*.mjs'],
+      parserOptions: {
+        sourceType: 'module'
+      }
     }
   ],
   parserOptions: {
