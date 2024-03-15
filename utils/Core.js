@@ -62,7 +62,7 @@ const Core = {
         }
       }
 
-      note['highlight'] = annotation.trim();
+      note['highlight'] = annotation?.trim();
       return note;
     });
 
@@ -103,7 +103,8 @@ const Core = {
     );
   },
 
-  /// TODO: Pass to the formatNoteToMD a template function as valid config, to save the correspondent notes.
+  // TODO: Pass to the formatNoteToMD a template function as valid config, to save the correspondent notes.
+  // Here the function will save all the notes and rewrite the File with the Clippings provided
   /**
    *
    * @param {Book[]} library - Collection of parsed books

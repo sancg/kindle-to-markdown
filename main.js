@@ -1,10 +1,10 @@
 const Core = require('./utils/Core');
 const File = require('./utils/File');
 const { clippingFile, tempFile } = require('./utils/Routes');
-const testingSource = './data/moreEntries.txt';
+const testingSource = './data/fullSet.txt';
 
 (async () => {
-  // IMPROVE: SyncNote is function that search the tempFile last Entry and compare with the new ExtractedNotes
+  // IMPROVE: SyncNote is a function that search the tempFile last Entry and compare it with the new ExtractedNotes
   const { default: SyncNote } = await import('./utils/Sync.mjs');
 
   const timeStart = performance.now();
@@ -20,8 +20,8 @@ const testingSource = './data/moreEntries.txt';
      */
     const temp = {
       lastEntry: parseNotes[parseNotes.length - 1],
-      totalBooks: parseNotes.length,
-      highlightCount: parseBooks.length
+      totalBooks: parseBooks.length,
+      highlightCount: parseNotes.length
     };
 
     await Core.formatNoteToMD(parseBooks);

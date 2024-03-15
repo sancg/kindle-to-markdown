@@ -701,11 +701,6 @@ How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thi
 1.   Fleeting notes , which are only reminders of information, can be written in any kind of way and will end up in the trash within a day or two.
 ==========
 How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
-- Your Note on page 50 | Location 767 | Added on Tuesday, May 30, 2023 8:12:55 AM
-
-.h4
-==========
-How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
 - Your Highlight on page 51 | Location 768-772 | Added on Tuesday, May 30, 2023 8:12:58 AM
 
 2.     Permanent notes , which will never be thrown away and contain the necessary information in themselves in a permanently understandable way. They are always stored in the same way in the same place, either in the reference system or, written as if for print, in the slip-box.
@@ -722,6 +717,11 @@ How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thi
 ==========
 How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
 - Your Note on page 51 | Location 775 | Added on Tuesday, May 30, 2023 8:13:20 AM
+
+.h4
+==========
+How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking - for Students, Academics and Nonfiction Book Writers (Sönke Ahrens)
+- Your Note on page 50 | Location 767 | Added on Tuesday, May 30, 2023 8:12:55 AM
 
 .h4
 ==========
