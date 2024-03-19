@@ -1,6 +1,6 @@
 const Core = require('./utils/Core');
 const File = require('./utils/File');
-const { clippingFile, tempFile } = require('./utils/Routes');
+const { clippingFile, tempFile, source } = require('./utils/Routes');
 const testingSource = './data/fullSet.txt';
 
 (async () => {
@@ -25,6 +25,7 @@ const testingSource = './data/fullSet.txt';
     };
 
     await Core.formatNoteToMD(parseBooks);
+    //await File.SaveResults(parseBooks, source + '/Books.json');
     await File.SaveResults(temp, tempFile);
   }
 

@@ -1,6 +1,7 @@
 {
   "name": "kindlehighlights",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "Convert your valuable notes into .md to use with Obsidian or any note taking app",
   "main": "main.js",
   "repository": {
@@ -15,7 +16,9 @@
     "kindle",
     "kindlehighlights",
     "note-taking app",
-    "note-taking"
+    "note-taking",
+    "kindle-to-notes",
+    "kindle to markdown"
   ],
   "author": {
     "name": "Santiago Cano",
@@ -29,5 +32,8 @@
     "eslint-plugin-standard": "^5.0.0",
     "prettier": "^3.0.3",
     "vitest": "0.34.1"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4"
   }
 }
