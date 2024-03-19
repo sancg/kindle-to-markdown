@@ -5,7 +5,7 @@
 *.json
 testing/*.txt
 */Notes/**/*.md
-
+data/*.txt
 # /test*
 
 *-lock.json

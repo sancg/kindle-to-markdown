@@ -1,0 +1,6 @@
+Title: {{ book.book }}
+---
+# Content
+{% for annotation in book.annotations %}
+>[!quote] {{ annotation.highlight }}
+{% endfor %}

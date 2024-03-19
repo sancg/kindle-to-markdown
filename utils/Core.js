@@ -2,6 +2,8 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 
 const File = require('./File');
+const njk = require('nunjucks');
+const { source } = require('./Routes');
 
 const Core = {
   fileLastEntry: 'checkLastEntry.json',
@@ -62,7 +64,7 @@ const Core = {
         }
       }
 
-      note['highlight'] = annotation.trim();
+      note['highlight'] = annotation?.trim();
       return note;
     });
 
@@ -103,51 +105,25 @@ const Core = {
     );
   },
 
-  /// TODO: Pass to the formatNoteToMD a template function as valid config, to save the correspondent notes.
+  // TODO: Pass to the formatNoteToMD a template function as valid config, to save the correspondent notes.
+  // Here the function will save all the notes and rewrite the File with the Clippings provided
   /**
    *
    * @param {Book[]} library - Collection of parsed books
    * @returns {Promise<void>}
    */
-  async formatNoteToMD(library) {
+  async ArrayToMd(library) {
+    njk.configure(`${source}/template`, { autoescape: true, express: null });
+
     const pathBook = await File.CreateFolder({
       folder: 'Notes',
       is_source: true
     });
-    let text;
-    return await Promise.all(
+    await Promise.all(
       library.map(async (item) => {
-        const currentDate = new Date().toISOString().split('T').shift();
-        text = `---
-tags: reading
-folder: undefined
-author: ${item.author ?? 'Mr. X'}
-date: ${currentDate}  
----
-`;
-        text += `
-# ${item.book}
-## Fragments:
-`;
-        item.annotations.forEach((ad) => {
-          if (ad.highlight) {
-            text += `
-\`\`\`ad-quote
-title: ${ad.reference}
-${ad.highlight}
-\`\`\`
-`;
-          } else {
-            text += `
-\`\`\`ad-hint
-title: ${ad.reference}
-${ad.note}
-\`\`\`
-`;
-          }
-        });
-        await fs.writeFile(path.join(pathBook, `${item.book}.md`), text);
-        // return text;
+        const markdown = njk.render('$template.md.njk', { book: item });
+        console.log(markdown);
+        await fs.writeFile(path.join(pathBook, `${item.book}.md`), markdown);
       })
     );
   }
