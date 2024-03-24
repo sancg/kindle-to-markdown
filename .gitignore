@@ -2,12 +2,12 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos
 
 ### Results ###
-*.json
+src/**/*.json
 testing/*.txt
 */Notes/**/*.md
 data/*.txt
-# /test*
 
+# /test*
 *-lock.json
 yarn.lock
 

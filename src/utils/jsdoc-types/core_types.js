@@ -17,7 +17,7 @@
  *        note?: string | null;
  *      }[]
  *    }
- * } Book
+ * } BookA
  *
  * Represent the format of a JSON result
  * @typedef {{
