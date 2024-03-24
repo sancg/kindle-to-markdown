@@ -1,35 +1,41 @@
 module.exports = {
   env: {
     node: true,
-    commonjs: true,
+    // commonjs: true,
     es2021: true
   },
-
-  plugins: ['eslint-plugin-standard'],
-  extends: ['eslint:recommended', 'prettier'],
-  overrides: [
-    {
-      files: ['.eslintrc.{js,cjs}'],
-      parserOptions: {
-        sourceType: 'script'
-      }
-      // extends: ['prettier', 'standard']
-    },
-    {
-      files: ['*.js', '*/**/*.js'],
-      extends: ['eslint:recommended', 'prettier']
-    },
-    {
-      files: ['*.mjs', '*/**/*.mjs'],
-      parserOptions: {
-        sourceType: 'module'
-      }
-    }
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended'
   ],
+  plugins: ['@typescript-eslint', 'prettier'],
+  rules: {
+    'prettier/prettier': 'error'
+  },
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
     project: true,
-    tsconfigRootDir: __dirname
+    sourceType: 'module'
   },
-  rules: {}
+  overrides: [
+    // {
+    //   files: ['.eslintrc.{js,cjs}'],
+    //   parserOptions: {
+    //     sourceType: 'script'
+    //   }
+    //   // extends: ['prettier', 'standard']
+    // },
+    // {
+    //   files: ['*.js', '*/**/*.js', '*.ts', '*/**/*.ts'],
+    //   extends: ['eslint:recommended', 'prettier']
+    // },
+    // {
+    //   files: ['*.mjs', '*/**/*.mjs'],
+    //   parserOptions: {
+    //     sourceType: 'module'
+    //   }
+    // }
+  ]
 };
