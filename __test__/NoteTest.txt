@@ -1,0 +1,10 @@
+Dive into Refactoring  
+- Your Highlight on page 6-6 | Added on Wednesday, April 5, 2023 2:54:05 AM
+
+Therefore, it is necessary to get rid of code smells while they are still small.
+==========
+﻿El arte de la guerra (Sun Tzu)
+- Your Note on page 1 | Location 12 | Added on Wednesday, April 5, 2023 1:06:49 AM
+
+[[La doctrina]]
+==========

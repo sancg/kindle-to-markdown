@@ -10,13 +10,15 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   plugins: ['@typescript-eslint', 'prettier'],
+  // plugins: ['prettier'],
   rules: {
-    'prettier/prettier': 'error'
+    'prettier/prettier': 'error',
+    'no-unused-vars': 'off'
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    project: true,
+    //project: true,
     sourceType: 'module'
   },
   overrides: [
