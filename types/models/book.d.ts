@@ -1,15 +1,17 @@
-export enum NoteType {
-  HIGHLIGHT = 'highligh',
-  NOTE = 'note',
-  BOOKMARK = 'bookmark'
-}
+// export enum NoteType {
+//   HIGHLIGHT = 'highlight',
+//   NOTE = 'note',
+//   BOOKMARK = 'bookmark'
+// }
+type NoteType = 'highlight' | 'note' | 'bookmark';
 
 export interface Note {
   title: string;
   author: string;
-  reference: NoteType;
+  content: string;
+  noteType: NoteType;
   location?: string;
-  date: Date;
+  date?: string;
 }
 
 export interface Book {
