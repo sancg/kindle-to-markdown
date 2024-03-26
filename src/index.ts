@@ -1,22 +1,7 @@
-import fs from 'node:fs/promises';
-import { Note, NoteType } from '../types/models/book.d.js';
+// import fs from 'node:fs/promises';
 import dateConversion from './utils/dateConversion.js';
-
-function isNoteType(value: string): value is NoteType {
-  const supportedPatterns: Record<string, RegExp> = {
-    Spanish: /nota|resaltado|marca/i,
-    English: /note|highlight|bookmark/i
-  };
-
-  const languages = Object.keys(supportedPatterns);
-  for (const lang of languages) {
-    if (supportedPatterns[lang].test(value)) {
-      return true;
-    }
-  }
-
-  return false;
-}
+import type { Note, NoteType } from '@/types/models/book.js';
+import getHash from './utils/getHash.js';
 
 export class Core {
   fileLastEntry = 'checkLastEntry.json';
@@ -48,17 +33,14 @@ export class Core {
         if (!title) return null;
 
         // Match the note types in the file content
-        const isNoteType = location.match(this.supportPattern)?.[0];
+        const isNoteType = location?.match(this.supportPattern)?.[0];
         if (isNoteType) {
-          let findDate = location
+          const findDate = location
             .split(/added on/i)
             .pop()
             ?.trim();
-          if (findDate) {
-            findDate = dateConversion(findDate);
-          }
-
-          return {
+          const note: Note = {
+            id: '',
             title: title?.trim(),
             author: '',
             noteType: isNoteType as NoteType,
@@ -67,12 +49,14 @@ export class Core {
               .match(/page.*(?=\|)/)?.[0]
               ?.replace(' | ', '; ')
               ?.trim(),
-            date: findDate
-          } satisfies Note;
+            createdAt: findDate ? dateConversion(findDate) : undefined
+          };
+          note.id = getHash(note);
+          return note;
         }
       })
       .filter(Boolean);
 
-    return extractedNotes as Note[];
+    return !extractedNotes.length ? null : (extractedNotes as Note[]);
   }
 }
