@@ -1,6 +1,4 @@
-export default function dateConversion(dateStr: string): string {
-  const date = new Date(dateStr);
-
+export default function dateConversion(noteDate: string): string {
   const options: Intl.DateTimeFormatOptions = {
     month: '2-digit',
     day: '2-digit',
@@ -9,8 +7,6 @@ export default function dateConversion(dateStr: string): string {
     minute: '2-digit',
     hour12: false // Use 24-hour format
   };
-
-  const formatter = new Intl.DateTimeFormat('en-US', options);
-  const formattedDate = formatter.format(date);
-  return formattedDate;
+  const createdAt = new Date(noteDate).toLocaleDateString('en-US', options);
+  return createdAt;
 }
